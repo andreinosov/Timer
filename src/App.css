@@ -1,0 +1,31 @@
+.timer {
+  display: flex;
+}
+.timer button {
+  margin: 10px;
+  border-radius: 0px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  user-select: none;
+  cursor: pointer;
+}
+.timer button:active {
+  position: relative;
+  top: 1px;
+}
+.timer button:focus {
+  outline: none;
+}
+.start-pause {
+  background-color: #A6ED8E;
+}
+.restart {
+  background-color: #1AA59A;
+}
+.numbers {
+  font-family: sans-serif;
+}
