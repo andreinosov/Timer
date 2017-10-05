@@ -4,7 +4,6 @@ import App from './App';
 
 let index = true ? null : true;
 
-ReactDOM.render(
-  <App start={Date.now()} />,
+ReactDOM.render(<App start={Date.now()} />,
   document.getElementById('root')
 );
