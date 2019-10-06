@@ -20,6 +20,9 @@ class App extends Component {
       clearInterval(this.timer);
       this.setState( {isPaused : s} )
     }
+    if(this.state.isPaused === 12) {
+      console.log('12');
+    }
   }
   restart() {
     this.setState( {sec : 0} );
